@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Ali Hassan Khan</title>
+    <link>https://ali4ai.github.io/authors/</link>
+      <atom:link href="https://ali4ai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Ali Hassan Khan</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ali4ai.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://ali4ai.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://ali4ai.github.io/authors/admin/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a Masters student in the Machine Learning Department at Carnegie Mellon University.&lt;/p&gt;
+&lt;p&gt;My broad fields of interest are Machine Learning, Reinforcement Learning, and Artifical Intelligence. Recently, I have also developed a new found interest towards computational cognition, and I am currently exploring this area.&lt;/p&gt;
+&lt;p&gt;I was a Research Intern at the Big Data Experience Lab, Adobe Systems, Bangalore, in the summer of 2018, where I worked in the area of Machine Learning and Augmented Reality. I have also interned at Hike Pvt. Ltd, New Delhi, in the summer of 2017, where I worked towards developing a Language Independant Text-to-Emotion Classifier. Apart from this, I have done numerous projects on areas like Cross Modal Media Retrieval, Neural Machine Translation, Abstractive Document Summarisation and others. An exhaustive detailed list of my projects can be found in the Projects Section.&lt;/p&gt;
+&lt;p&gt;In my free time, I love reading novels, and watching movies. I am also a gaming enthusiast, playing numerous e-sports from time to time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ali Hassan Khan</title>
+      <link>https://ali4ai.github.io/authors/kundan-krishna/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/kundan-krishna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kush Kumar Singh</title>
+      <link>https://ali4ai.github.io/authors/kush-kumar-singh/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/kush-kumar-singh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monisha J</title>
+      <link>https://ali4ai.github.io/authors/monisha-j/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/monisha-j/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paridhi Maheshwari</title>
+      <link>https://ali4ai.github.io/authors/paridhi-maheshwari/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/paridhi-maheshwari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sumit Shekhar</title>
+      <link>https://ali4ai.github.io/authors/sumit-shekhar/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ali4ai.github.io/authors/sumit-shekhar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>industrial | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/industrial/</link>
+      <atom:link href="https://amr4i.github.io/tags/industrial/index.xml" rel="self" type="application/rss+xml" />
+    <description>industrial</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Fri, 27 Jul 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>industrial</title>
+      <link>https://amr4i.github.io/tags/industrial/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Reality Authoring</title>
+      <link>https://amr4i.github.io/project/augmented-reality/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/augmented-reality/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a research internship at &lt;a href=&#34;https://research.adobe.com/about-adobe-research/bigdata-experience-lab/&#34;&gt;Big Data Experience Lab, Adobe Systems, Bangalore&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my third year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;During the internship, I worked as a Research Intern, among a team of 3 members and in close coordination with multiple research members of technical staff at the company, to accomplish the above-mentioned project. A general area of interest was assigned, and a specific problem statement was chosen in that area after an extensive period of brainstorming. Having decided on a problem statement, methods were devised to come up with a feasible solution for the problem. Multiple NLP techniques such as scene graph parsing, coreference resolution, and others were utilised to understand text, along with learning multiple MLP networks for certain tasks involved in the solution pipeline. The augmented reality aspect of the project was realized by using the ARCore library provided by Google, in the Unity3D framework.&lt;/p&gt;
+&lt;p&gt;The final solution pipeline included multiple methods leveraged from existing works and improved upon, as well as novel methods for scene augmentation and a MLP prediction model that were introduced for the first time.&lt;/p&gt;
+&lt;p&gt;Using these multiple techniques intelligently in a pipelined manner, a first-of-its-kind novel end-to-end interface was developed that allows easy authoring of augmented reality experiences from natural language input. An internal survey was conducted, which temporarily validated the genuinity of the interface, and conducting the final crowdsourced survey is work in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Independent Text-to-Emotion Classification</title>
+      <link>https://amr4i.github.io/project/language-independent-emotion/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/language-independent-emotion/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a industrial software internship at &lt;a href=&#34;https://hike.in/&#34;&gt;Hike Pvt. Ltd., New Delhi&lt;/a&gt;, during &lt;em&gt;May &amp;lsquo;17 - Jul &amp;lsquo;17&lt;/em&gt;, the summer of my second year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;The project aimed at developing a machine learning model to &lt;strong&gt;assign an emotion to any chat message provided as input&lt;/strong&gt;. This would allow quick sticker recommendations to be based not only the textual reference, but also take into account the emotional state of the user for that message.&lt;/p&gt;
+&lt;p&gt;This task was accomplished by developing neural network models using the open source software library &lt;em&gt;tensorflow&lt;/em&gt; from Google. In order to get the highest accuracy, multiple models had to be developed, all based on different machine learning techniques including &lt;strong&gt;CNN&lt;/strong&gt;, &lt;strong&gt;RNN&lt;/strong&gt;, and &lt;strong&gt;LSTM&lt;/strong&gt; networks.&lt;/p&gt;
+&lt;p&gt;The esteem of the model lies in the fact that it is a &lt;strong&gt;language independent&lt;/strong&gt; model, which when trained on enough texts from any language, should be able to successfully predict the most probable emotion of any text in that language.&lt;/p&gt;
+&lt;p&gt;The project also comprised of gathering the data required for training this model. For this purpose, a sub-project had to be developed that acted like a &lt;strong&gt;Language-Classifier&lt;/strong&gt;, which segregated the chat corpus into chats of the top 5 chat languages in the application, namely Hindi+English, Tamil, Marathi, Gujarati and Bengali, but can easily be extended to any number of languages as required.&lt;/p&gt;
+&lt;p&gt;This segregation into the different chatting languages was required since the data needed for training had to be prepared by manual tagging of the messages to a particular emotion class out of a predefined set of classes. Notably, the model does not require any language classification of the input message, once it has been trained on this prepared data.&lt;/p&gt;
+&lt;p&gt;The crude conversation data was obtained from a corpus of anonymized &amp;ldquo;random&amp;rdquo; text chat sequences. Following this, the language-classifier was applied to get the texts from each language separated out. The classifier started with the sticker tags of the languages, processed them at multiple stages and performed a frequency analysis through a Confusion Matrix to get unique set of words for each language. Using these words, some texts were extracted from the corpus for each language. These texts were then used to get a better and more extensive list of unique common words through the same process. Now, using this final word list, another frequency based search on the conversations allowed extraction of texts uniquely belonging to each language.&lt;/p&gt;
+&lt;p&gt;These texts then had to be properly “cleaned&amp;rdquo; so as to contain only relevant information. This was done using some basic python scripting followed by running the corpus through a &lt;strong&gt;Vector Space Model&lt;/strong&gt; (VSM) that used word2Vec modelling and tf-idf weights to generate word and document vectors, and use those to clear irrelevant and repeated information. The process also involved gathering data from multiple NoSQL databases in MongoDB.&lt;/p&gt;
+&lt;p&gt;Finally, a &lt;strong&gt;Server-Client support&lt;/strong&gt; for the model was also developed wherein the user could submit the text, which is processed by the Client and submitted to the Server along the necessary details as a GRPC request. The server hosts the multiple versions of the model, with the latest being fetched to answer the query it receives from the client. This support was added through Google&#39;s &lt;em&gt;tensorflow_serving&lt;/em&gt; library. The model can also be hosted on Google Machine Learning Engine, the support for which can be easily implemented in the existing code.&lt;/p&gt;
+&lt;p&gt;The tensorflow serving library has support only on linux environments, and hence for setting up the server system, a appropriate &lt;strong&gt;Docker&lt;/strong&gt; environment also had to be set-up on the local machine, that included all the dependencies for the same.&lt;/p&gt;
+&lt;p&gt;As a simple but efficient extension, the text message that contains emojis isn&#39;t analyzed via the model, and instead the emotion can be directly taken from the emoji itself on the client itself without any need to hit the server.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for large scale logistics platform</title>
+      <link>https://amr4i.github.io/project/nyo/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/nyo/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a remote software development internship at &lt;a href=&#34;https://nyc.iitk.ac.in/NYC/&#34;&gt;New York Office, IIT Kanpur&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my second year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;The project comprised of completing multiple tasks within the assigned duration of the internship.
+The first task was to implement the &lt;strong&gt;Document Distance&lt;/strong&gt; problem, to remove the semantically same articles from large collection of articles. This was accomplished by using word vectors and document vectors and implementing the &lt;strong&gt;Word Mover’s Distance&lt;/strong&gt; algorithm to successfully eliminate all similar entries within acceptable error values. We also experimented with word-vectors and tf-idf weights to generate document vectors and finding semantically similar articles through cosine similarity of these document vectors, but Word Mover’s distance was the final method used because of better accuracy, though being slower than the other approach. The development was done in Python, and used both pre-trained word embeddings and custom trained word embeddings to get a requirement specific model.&lt;br&gt;
+The second task was to implement the &lt;strong&gt;Reverse k-Nearest Neighbour&lt;/strong&gt; problem. The data would contain two sets of coordinates, one for facilities and the other for users. The task is to return all those users (BiChromatic RkNN) or facilities(MonoChromatic RkNN) for which the query facility is among the k-Nearest facility. This task required proper data structure that could allow quick access and insertion along with efficient spatial storage, as we need to work with 2D coordinates. Hence, two separate R-Trees were used to store the coordinates of users and facilities. Then the &lt;strong&gt;SLICE&lt;/strong&gt; algorithm was used to implement RkNN problem, that partitions the space in equal sectors around the query, and acts as an improved version of halfSpace and Six-region algorithms combined to get pruning and verification done relatively faster in speed and I/O operations combined. The code for this problem was implemented in C++.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

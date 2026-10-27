@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>augmented-reality | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/augmented-reality/</link>
+      <atom:link href="https://amr4i.github.io/tags/augmented-reality/index.xml" rel="self" type="application/rss+xml" />
+    <description>augmented-reality</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Fri, 27 Jul 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>augmented-reality</title>
+      <link>https://amr4i.github.io/tags/augmented-reality/</link>
+    </image>
+    
+    <item>
+      <title>Augmented Reality Authoring</title>
+      <link>https://amr4i.github.io/project/augmented-reality/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/augmented-reality/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a research internship at &lt;a href=&#34;https://research.adobe.com/about-adobe-research/bigdata-experience-lab/&#34;&gt;Big Data Experience Lab, Adobe Systems, Bangalore&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my third year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;During the internship, I worked as a Research Intern, among a team of 3 members and in close coordination with multiple research members of technical staff at the company, to accomplish the above-mentioned project. A general area of interest was assigned, and a specific problem statement was chosen in that area after an extensive period of brainstorming. Having decided on a problem statement, methods were devised to come up with a feasible solution for the problem. Multiple NLP techniques such as scene graph parsing, coreference resolution, and others were utilised to understand text, along with learning multiple MLP networks for certain tasks involved in the solution pipeline. The augmented reality aspect of the project was realized by using the ARCore library provided by Google, in the Unity3D framework.&lt;/p&gt;
+&lt;p&gt;The final solution pipeline included multiple methods leveraged from existing works and improved upon, as well as novel methods for scene augmentation and a MLP prediction model that were introduced for the first time.&lt;/p&gt;
+&lt;p&gt;Using these multiple techniques intelligently in a pipelined manner, a first-of-its-kind novel end-to-end interface was developed that allows easy authoring of augmented reality experiences from natural language input. An internal survey was conducted, which temporarily validated the genuinity of the interface, and conducting the final crowdsourced survey is work in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

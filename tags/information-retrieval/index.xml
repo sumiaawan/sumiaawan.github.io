@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>information-retrieval | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/information-retrieval/</link>
+      <atom:link href="https://amr4i.github.io/tags/information-retrieval/index.xml" rel="self" type="application/rss+xml" />
+    <description>information-retrieval</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Thu, 27 Dec 2018 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>information-retrieval</title>
+      <link>https://amr4i.github.io/tags/information-retrieval/</link>
+    </image>
+    
+    <item>
+      <title>Query Biased Multi-Document Abstractive Summarisation</title>
+      <link>https://amr4i.github.io/project/query-abs-summary/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/query-abs-summary/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was started as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS657.html&#34;&gt;CS657: Information Retrieval&lt;/a&gt;, in the Spring &amp;lsquo;18 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/arnabb/&#34;&gt;Prof. Arnab Bhattacharya&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur. It was later continued beyond the course into my second undergraduate research project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this project, we introduced a novel pipeline to implement a query-biased multi-document
+abstractive summarisation. Traditional information retrieval systems return a ranked
+list of whole documents as the answer to a query. However, in many cases, not every part
+of an entire document is relevant to the query. Thus, it is desirable to retrieve from
+the set of retrieved documents, in a succinct manner, a summary of only the required
+information extracted from across all the relevant documents. The approach proposed
+involves retrieving relevant documents for each query, followed by extracting relevant
+passages from each document. This is followed by collating all such relevant passages
+and performing redundancy removal to keep the length of such a collated document sane.
+Finally, an abstractive summarisation approach is used to generate abstractive single-line
+summaries for our information need.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross Modal Media Retrieval</title>
+      <link>https://amr4i.github.io/project/cross-modal-media/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/cross-modal-media/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as my first undergraduate research project under &lt;a href=&#34;https://www.cs.ox.ac.uk/people/medha.atre/&#34;&gt;Prof. Medha Atre&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project aims to utilize the the emotional information present in any media to perform cross-modal media
+retrieval efficiently. We present an implementation to extract this emotion from images as 2-dimensional
+vectors, and propose two methods to bring this emotion vectors from different medias in the same space, one
+being a statistical approach, and the other being a learning based approach. We also present a hypothesis,
+which allows us to establish a ground truth for the cross modal mapping. We perform extensive analysis of
+one of our proposals, and report the results obtained. We have also proposed and implemented a heuristic
+to retrieve cross-modal results efficiently.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

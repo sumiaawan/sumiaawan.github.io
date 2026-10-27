@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theory | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/theory/</link>
+      <atom:link href="https://amr4i.github.io/tags/theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Mon, 27 Nov 2017 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>theory</title>
+      <link>https://amr4i.github.io/tags/theory/</link>
+    </image>
+    
+    <item>
+      <title>Quantum Machine Learning</title>
+      <link>https://amr4i.github.io/project/quantum-machine-learning/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/quantum-machine-learning/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as research project in the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS682.html&#34;&gt;CS682: Quantum Computing&lt;/a&gt;, in the Fall &amp;lsquo;17 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/rmittal/&#34;&gt;Prof. Rajat Mittal&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The aim of the project is to study two of the most
+widely used machine learning strategies, namely KNearest
+Neighbours algorithm and Perceptron Learning
+algorithm, in a quantum setting, and study the speedups
+that the quantum modules allow over the classical
+counterparts.&lt;/p&gt;
+&lt;p&gt;The study is primarily based on the following
+3 papers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Quantum Perceptron Models, by N. Wiebe, A. Kapoor and K. M. Svore.&lt;/li&gt;
+&lt;li&gt;Quantum Algorithm for K-Nearest Neighbors Classification Based on the Metric of Hamming Distance, by Y. Ruan, X. Xue, H. Liu, J. Tan, and X. Li.&lt;/li&gt;
+&lt;li&gt;Quantum Algorithms for Nearest-Neighbor Methods for Supervised and Unsupervised Learning, by N. Wiebe, A. Kapoor and K. M. Svore.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

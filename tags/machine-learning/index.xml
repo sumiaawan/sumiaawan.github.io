@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine-learning | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/machine-learning/</link>
+      <atom:link href="https://amr4i.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine-learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Tue, 07 Jan 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>machine-learning</title>
+      <link>https://amr4i.github.io/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>NYC Taxi Travel Time Prediction through Leveraging Geographical Information</title>
+      <link>https://amr4i.github.io/project/nyc-taxi-times/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/nyc-taxi-times/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a course project for 10-701: Introduction to Machine Learning in the Fall &amp;lsquo;19 term at CMU.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;We present a method of leveraging known geographical separations
+to better estimate travel times by car between two points in a city, specifically
+New York City. This allows for the creation of multiple simpler models that can
+be combined into an ensemble by taking advantage of information about possible
+crossing points.&lt;/p&gt;
+&lt;p&gt;We primarily used two modelling techniques:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gradient Boosted Regression trees using XGBoost&lt;/li&gt;
+&lt;li&gt;Deep neural networks using Tensorflow&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Query Biased Multi-Document Abstractive Summarisation</title>
+      <link>https://amr4i.github.io/project/query-abs-summary/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/query-abs-summary/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was started as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS657.html&#34;&gt;CS657: Information Retrieval&lt;/a&gt;, in the Spring &amp;lsquo;18 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/arnabb/&#34;&gt;Prof. Arnab Bhattacharya&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur. It was later continued beyond the course into my second undergraduate research project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this project, we introduced a novel pipeline to implement a query-biased multi-document
+abstractive summarisation. Traditional information retrieval systems return a ranked
+list of whole documents as the answer to a query. However, in many cases, not every part
+of an entire document is relevant to the query. Thus, it is desirable to retrieve from
+the set of retrieved documents, in a succinct manner, a summary of only the required
+information extracted from across all the relevant documents. The approach proposed
+involves retrieving relevant documents for each query, followed by extracting relevant
+passages from each document. This is followed by collating all such relevant passages
+and performing redundancy removal to keep the length of such a collated document sane.
+Finally, an abstractive summarisation approach is used to generate abstractive single-line
+summaries for our information need.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Augmented Reality Authoring</title>
+      <link>https://amr4i.github.io/project/augmented-reality/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/augmented-reality/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a research internship at &lt;a href=&#34;https://research.adobe.com/about-adobe-research/bigdata-experience-lab/&#34;&gt;Big Data Experience Lab, Adobe Systems, Bangalore&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my third year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;During the internship, I worked as a Research Intern, among a team of 3 members and in close coordination with multiple research members of technical staff at the company, to accomplish the above-mentioned project. A general area of interest was assigned, and a specific problem statement was chosen in that area after an extensive period of brainstorming. Having decided on a problem statement, methods were devised to come up with a feasible solution for the problem. Multiple NLP techniques such as scene graph parsing, coreference resolution, and others were utilised to understand text, along with learning multiple MLP networks for certain tasks involved in the solution pipeline. The augmented reality aspect of the project was realized by using the ARCore library provided by Google, in the Unity3D framework.&lt;/p&gt;
+&lt;p&gt;The final solution pipeline included multiple methods leveraged from existing works and improved upon, as well as novel methods for scene augmentation and a MLP prediction model that were introduced for the first time.&lt;/p&gt;
+&lt;p&gt;Using these multiple techniques intelligently in a pipelined manner, a first-of-its-kind novel end-to-end interface was developed that allows easy authoring of augmented reality experiences from natural language input. An internal survey was conducted, which temporarily validated the genuinity of the interface, and conducting the final crowdsourced survey is work in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross Modal Media Retrieval</title>
+      <link>https://amr4i.github.io/project/cross-modal-media/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/cross-modal-media/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as my first undergraduate research project under &lt;a href=&#34;https://www.cs.ox.ac.uk/people/medha.atre/&#34;&gt;Prof. Medha Atre&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project aims to utilize the the emotional information present in any media to perform cross-modal media
+retrieval efficiently. We present an implementation to extract this emotion from images as 2-dimensional
+vectors, and propose two methods to bring this emotion vectors from different medias in the same space, one
+being a statistical approach, and the other being a learning based approach. We also present a hypothesis,
+which allows us to establish a ground truth for the cross modal mapping. We perform extensive analysis of
+one of our proposals, and report the results obtained. We have also proposed and implemented a heuristic
+to retrieve cross-modal results efficiently.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neural Machine Translation for Low Resource Languages</title>
+      <link>https://amr4i.github.io/project/neural-machine-translation/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/neural-machine-translation/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS671.html&#34;&gt;CS671: Introduction to Natural Language Processing&lt;/a&gt;, in the Spring &amp;lsquo;18 term at IIT Kanpur under &lt;a href=&#34;https://www.iitk.ac.in/new/dr-harish-karnick#&#34;&gt;Prof. Harish Karnick&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Much work has been done on Neural Machine Translation, but most of it requires
+the availability of a large parallel corpora to train on, which is not always readily
+available. Unsupervised methods also exist that work by encoding both the languages
+in consideration to a common latent space, and then decoding them to the
+target language as required. This work aims at an accurate implementation of the
+work presented in Lample et al. (2017), and train it on a non-parallel corpora of
+English and Catalan languages. Baseline implementation is evaluated using BLEU
+score metric. We also hypothesize that adding the GCN layers would optimize the
+existing representations&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reviewer Recommendation for Conference Paper Submissions</title>
+      <link>https://amr4i.github.io/project/reviewer-recommendation/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/reviewer-recommendation/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS771.html&#34;&gt;CS771: Machine Learning Techniques&lt;/a&gt;, in the Fall &amp;lsquo;17 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/purushot/&#34;&gt;Prof. Purushottam Kar&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The process of reviewer assignment to the papers of a conference is a very challenging and sensitive
+task. The choice of reviewers for a particular paper plays a crucial role in determining whether
+the paper is accepted into the conference. Automating the task of choosing reviewers is one of the
+recent challenges being actively researched by the machine learning community. The state of the
+art paper-matching system is the &lt;a href=&#34;http://www.cs.toronto.edu/~zemel/documents/tpms.pdf&#34;&gt;Toronto Paper Matching System&lt;/a&gt; which uses an LDA based topic
+modelling approach to identify topics in the entire paper and a simple dot product to assess similarity
+between reviewer topics and paper topics. Our approach builds on this line of work and develops
+an alternating optimization approach for completing the matrix of relevance scores between paper
+vectors and author vectors.&lt;/p&gt;
+&lt;p&gt;We did an extensive survey of the feild and understood the currently most prevalent techniques for automated paper-reviewer assignment like the &lt;a href=&#34;http://www.cs.toronto.edu/~zemel/documents/tpms.pdf&#34;&gt;Toronto Paper Matching System&lt;/a&gt;, and the &lt;a href=&#34;http://engineering.nyu.edu/~suel/papers/reviewer.pdf&#34;&gt;Robust Paper-Reviewer Assignment Model&lt;/a&gt;. We implemented multiple modifications and techniques for improving the TPMS system by improvising on the Latent Dirichlet Allocation technique used in the generative model, and adding some intuitive biases.
+We also implemented an alternating optimization approach for completing the matrix of relevance scores between
+paper vectors and author vectors.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Independent Text-to-Emotion Classification</title>
+      <link>https://amr4i.github.io/project/language-independent-emotion/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/language-independent-emotion/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a industrial software internship at &lt;a href=&#34;https://hike.in/&#34;&gt;Hike Pvt. Ltd., New Delhi&lt;/a&gt;, during &lt;em&gt;May &amp;lsquo;17 - Jul &amp;lsquo;17&lt;/em&gt;, the summer of my second year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;The project aimed at developing a machine learning model to &lt;strong&gt;assign an emotion to any chat message provided as input&lt;/strong&gt;. This would allow quick sticker recommendations to be based not only the textual reference, but also take into account the emotional state of the user for that message.&lt;/p&gt;
+&lt;p&gt;This task was accomplished by developing neural network models using the open source software library &lt;em&gt;tensorflow&lt;/em&gt; from Google. In order to get the highest accuracy, multiple models had to be developed, all based on different machine learning techniques including &lt;strong&gt;CNN&lt;/strong&gt;, &lt;strong&gt;RNN&lt;/strong&gt;, and &lt;strong&gt;LSTM&lt;/strong&gt; networks.&lt;/p&gt;
+&lt;p&gt;The esteem of the model lies in the fact that it is a &lt;strong&gt;language independent&lt;/strong&gt; model, which when trained on enough texts from any language, should be able to successfully predict the most probable emotion of any text in that language.&lt;/p&gt;
+&lt;p&gt;The project also comprised of gathering the data required for training this model. For this purpose, a sub-project had to be developed that acted like a &lt;strong&gt;Language-Classifier&lt;/strong&gt;, which segregated the chat corpus into chats of the top 5 chat languages in the application, namely Hindi+English, Tamil, Marathi, Gujarati and Bengali, but can easily be extended to any number of languages as required.&lt;/p&gt;
+&lt;p&gt;This segregation into the different chatting languages was required since the data needed for training had to be prepared by manual tagging of the messages to a particular emotion class out of a predefined set of classes. Notably, the model does not require any language classification of the input message, once it has been trained on this prepared data.&lt;/p&gt;
+&lt;p&gt;The crude conversation data was obtained from a corpus of anonymized &amp;ldquo;random&amp;rdquo; text chat sequences. Following this, the language-classifier was applied to get the texts from each language separated out. The classifier started with the sticker tags of the languages, processed them at multiple stages and performed a frequency analysis through a Confusion Matrix to get unique set of words for each language. Using these words, some texts were extracted from the corpus for each language. These texts were then used to get a better and more extensive list of unique common words through the same process. Now, using this final word list, another frequency based search on the conversations allowed extraction of texts uniquely belonging to each language.&lt;/p&gt;
+&lt;p&gt;These texts then had to be properly “cleaned&amp;rdquo; so as to contain only relevant information. This was done using some basic python scripting followed by running the corpus through a &lt;strong&gt;Vector Space Model&lt;/strong&gt; (VSM) that used word2Vec modelling and tf-idf weights to generate word and document vectors, and use those to clear irrelevant and repeated information. The process also involved gathering data from multiple NoSQL databases in MongoDB.&lt;/p&gt;
+&lt;p&gt;Finally, a &lt;strong&gt;Server-Client support&lt;/strong&gt; for the model was also developed wherein the user could submit the text, which is processed by the Client and submitted to the Server along the necessary details as a GRPC request. The server hosts the multiple versions of the model, with the latest being fetched to answer the query it receives from the client. This support was added through Google&#39;s &lt;em&gt;tensorflow_serving&lt;/em&gt; library. The model can also be hosted on Google Machine Learning Engine, the support for which can be easily implemented in the existing code.&lt;/p&gt;
+&lt;p&gt;The tensorflow serving library has support only on linux environments, and hence for setting up the server system, a appropriate &lt;strong&gt;Docker&lt;/strong&gt; environment also had to be set-up on the local machine, that included all the dependencies for the same.&lt;/p&gt;
+&lt;p&gt;As a simple but efficient extension, the text message that contains emojis isn&#39;t analyzed via the model, and instead the emotion can be directly taken from the emoji itself on the client itself without any need to hit the server.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

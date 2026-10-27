@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/computer-vision/</link>
+      <atom:link href="https://amr4i.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>computer-vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Sun, 27 May 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>computer-vision</title>
+      <link>https://amr4i.github.io/tags/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Cross Modal Media Retrieval</title>
+      <link>https://amr4i.github.io/project/cross-modal-media/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/cross-modal-media/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as my first undergraduate research project under &lt;a href=&#34;https://www.cs.ox.ac.uk/people/medha.atre/&#34;&gt;Prof. Medha Atre&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project aims to utilize the the emotional information present in any media to perform cross-modal media
+retrieval efficiently. We present an implementation to extract this emotion from images as 2-dimensional
+vectors, and propose two methods to bring this emotion vectors from different medias in the same space, one
+being a statistical approach, and the other being a learning based approach. We also present a hypothesis,
+which allows us to establish a ground truth for the cross modal mapping. We perform extensive analysis of
+one of our proposals, and report the results obtained. We have also proposed and implemented a heuristic
+to retrieve cross-modal results efficiently.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

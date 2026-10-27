@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>research | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/research/</link>
+      <atom:link href="https://amr4i.github.io/tags/research/index.xml" rel="self" type="application/rss+xml" />
+    <description>research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Tue, 07 Jan 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>research</title>
+      <link>https://amr4i.github.io/tags/research/</link>
+    </image>
+    
+    <item>
+      <title>NYC Taxi Travel Time Prediction through Leveraging Geographical Information</title>
+      <link>https://amr4i.github.io/project/nyc-taxi-times/</link>
+      <pubDate>Tue, 07 Jan 2020 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/nyc-taxi-times/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a course project for 10-701: Introduction to Machine Learning in the Fall &amp;lsquo;19 term at CMU.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;We present a method of leveraging known geographical separations
+to better estimate travel times by car between two points in a city, specifically
+New York City. This allows for the creation of multiple simpler models that can
+be combined into an ensemble by taking advantage of information about possible
+crossing points.&lt;/p&gt;
+&lt;p&gt;We primarily used two modelling techniques:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gradient Boosted Regression trees using XGBoost&lt;/li&gt;
+&lt;li&gt;Deep neural networks using Tensorflow&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Query Biased Multi-Document Abstractive Summarisation</title>
+      <link>https://amr4i.github.io/project/query-abs-summary/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/query-abs-summary/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was started as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS657.html&#34;&gt;CS657: Information Retrieval&lt;/a&gt;, in the Spring &amp;lsquo;18 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/arnabb/&#34;&gt;Prof. Arnab Bhattacharya&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur. It was later continued beyond the course into my second undergraduate research project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this project, we introduced a novel pipeline to implement a query-biased multi-document
+abstractive summarisation. Traditional information retrieval systems return a ranked
+list of whole documents as the answer to a query. However, in many cases, not every part
+of an entire document is relevant to the query. Thus, it is desirable to retrieve from
+the set of retrieved documents, in a succinct manner, a summary of only the required
+information extracted from across all the relevant documents. The approach proposed
+involves retrieving relevant documents for each query, followed by extracting relevant
+passages from each document. This is followed by collating all such relevant passages
+and performing redundancy removal to keep the length of such a collated document sane.
+Finally, an abstractive summarisation approach is used to generate abstractive single-line
+summaries for our information need.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Augmented Reality Authoring</title>
+      <link>https://amr4i.github.io/project/augmented-reality/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/augmented-reality/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a research internship at &lt;a href=&#34;https://research.adobe.com/about-adobe-research/bigdata-experience-lab/&#34;&gt;Big Data Experience Lab, Adobe Systems, Bangalore&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my third year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;During the internship, I worked as a Research Intern, among a team of 3 members and in close coordination with multiple research members of technical staff at the company, to accomplish the above-mentioned project. A general area of interest was assigned, and a specific problem statement was chosen in that area after an extensive period of brainstorming. Having decided on a problem statement, methods were devised to come up with a feasible solution for the problem. Multiple NLP techniques such as scene graph parsing, coreference resolution, and others were utilised to understand text, along with learning multiple MLP networks for certain tasks involved in the solution pipeline. The augmented reality aspect of the project was realized by using the ARCore library provided by Google, in the Unity3D framework.&lt;/p&gt;
+&lt;p&gt;The final solution pipeline included multiple methods leveraged from existing works and improved upon, as well as novel methods for scene augmentation and a MLP prediction model that were introduced for the first time.&lt;/p&gt;
+&lt;p&gt;Using these multiple techniques intelligently in a pipelined manner, a first-of-its-kind novel end-to-end interface was developed that allows easy authoring of augmented reality experiences from natural language input. An internal survey was conducted, which temporarily validated the genuinity of the interface, and conducting the final crowdsourced survey is work in progress.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross Modal Media Retrieval</title>
+      <link>https://amr4i.github.io/project/cross-modal-media/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/cross-modal-media/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as my first undergraduate research project under &lt;a href=&#34;https://www.cs.ox.ac.uk/people/medha.atre/&#34;&gt;Prof. Medha Atre&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project aims to utilize the the emotional information present in any media to perform cross-modal media
+retrieval efficiently. We present an implementation to extract this emotion from images as 2-dimensional
+vectors, and propose two methods to bring this emotion vectors from different medias in the same space, one
+being a statistical approach, and the other being a learning based approach. We also present a hypothesis,
+which allows us to establish a ground truth for the cross modal mapping. We perform extensive analysis of
+one of our proposals, and report the results obtained. We have also proposed and implemented a heuristic
+to retrieve cross-modal results efficiently.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantum Machine Learning</title>
+      <link>https://amr4i.github.io/project/quantum-machine-learning/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/quantum-machine-learning/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as research project in the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS682.html&#34;&gt;CS682: Quantum Computing&lt;/a&gt;, in the Fall &amp;lsquo;17 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/rmittal/&#34;&gt;Prof. Rajat Mittal&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The aim of the project is to study two of the most
+widely used machine learning strategies, namely KNearest
+Neighbours algorithm and Perceptron Learning
+algorithm, in a quantum setting, and study the speedups
+that the quantum modules allow over the classical
+counterparts.&lt;/p&gt;
+&lt;p&gt;The study is primarily based on the following
+3 papers:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Quantum Perceptron Models, by N. Wiebe, A. Kapoor and K. M. Svore.&lt;/li&gt;
+&lt;li&gt;Quantum Algorithm for K-Nearest Neighbors Classification Based on the Metric of Hamming Distance, by Y. Ruan, X. Xue, H. Liu, J. Tan, and X. Li.&lt;/li&gt;
+&lt;li&gt;Quantum Algorithms for Nearest-Neighbor Methods for Supervised and Unsupervised Learning, by N. Wiebe, A. Kapoor and K. M. Svore.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reviewer Recommendation for Conference Paper Submissions</title>
+      <link>https://amr4i.github.io/project/reviewer-recommendation/</link>
+      <pubDate>Mon, 27 Nov 2017 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/reviewer-recommendation/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS771.html&#34;&gt;CS771: Machine Learning Techniques&lt;/a&gt;, in the Fall &amp;lsquo;17 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/purushot/&#34;&gt;Prof. Purushottam Kar&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The process of reviewer assignment to the papers of a conference is a very challenging and sensitive
+task. The choice of reviewers for a particular paper plays a crucial role in determining whether
+the paper is accepted into the conference. Automating the task of choosing reviewers is one of the
+recent challenges being actively researched by the machine learning community. The state of the
+art paper-matching system is the &lt;a href=&#34;http://www.cs.toronto.edu/~zemel/documents/tpms.pdf&#34;&gt;Toronto Paper Matching System&lt;/a&gt; which uses an LDA based topic
+modelling approach to identify topics in the entire paper and a simple dot product to assess similarity
+between reviewer topics and paper topics. Our approach builds on this line of work and develops
+an alternating optimization approach for completing the matrix of relevance scores between paper
+vectors and author vectors.&lt;/p&gt;
+&lt;p&gt;We did an extensive survey of the feild and understood the currently most prevalent techniques for automated paper-reviewer assignment like the &lt;a href=&#34;http://www.cs.toronto.edu/~zemel/documents/tpms.pdf&#34;&gt;Toronto Paper Matching System&lt;/a&gt;, and the &lt;a href=&#34;http://engineering.nyu.edu/~suel/papers/reviewer.pdf&#34;&gt;Robust Paper-Reviewer Assignment Model&lt;/a&gt;. We implemented multiple modifications and techniques for improving the TPMS system by improvising on the Latent Dirichlet Allocation technique used in the generative model, and adding some intuitive biases.
+We also implemented an alternating optimization approach for completing the matrix of relevance scores between
+paper vectors and author vectors.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

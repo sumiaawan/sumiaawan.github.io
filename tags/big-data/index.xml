@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>big-data | Amrit Singhal</title>
+    <link>https://amr4i.github.io/tags/big-data/</link>
+      <atom:link href="https://amr4i.github.io/tags/big-data/index.xml" rel="self" type="application/rss+xml" />
+    <description>big-data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Amrit Singhal</copyright><lastBuildDate>Thu, 27 Dec 2018 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://amr4i.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>big-data</title>
+      <link>https://amr4i.github.io/tags/big-data/</link>
+    </image>
+    
+    <item>
+      <title>Query Biased Multi-Document Abstractive Summarisation</title>
+      <link>https://amr4i.github.io/project/query-abs-summary/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 -0500</pubDate>
+      <guid>https://amr4i.github.io/project/query-abs-summary/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was started as part of the course &lt;a href=&#34;https://www.cse.iitk.ac.in/pages/CS657.html&#34;&gt;CS657: Information Retrieval&lt;/a&gt;, in the Spring &amp;lsquo;18 term at IIT Kanpur under &lt;a href=&#34;https://www.cse.iitk.ac.in/users/arnabb/&#34;&gt;Prof. Arnab Bhattacharya&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur. It was later continued beyond the course into my second undergraduate research project.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;In this project, we introduced a novel pipeline to implement a query-biased multi-document
+abstractive summarisation. Traditional information retrieval systems return a ranked
+list of whole documents as the answer to a query. However, in many cases, not every part
+of an entire document is relevant to the query. Thus, it is desirable to retrieve from
+the set of retrieved documents, in a succinct manner, a summary of only the required
+information extracted from across all the relevant documents. The approach proposed
+involves retrieving relevant documents for each query, followed by extracting relevant
+passages from each document. This is followed by collating all such relevant passages
+and performing redundancy removal to keep the length of such a collated document sane.
+Finally, an abstractive summarisation approach is used to generate abstractive single-line
+summaries for our information need.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cross Modal Media Retrieval</title>
+      <link>https://amr4i.github.io/project/cross-modal-media/</link>
+      <pubDate>Sun, 27 May 2018 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/cross-modal-media/</guid>
+      <description>&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;This project was done as my first undergraduate research project under &lt;a href=&#34;https://www.cs.ox.ac.uk/people/medha.atre/&#34;&gt;Prof. Medha Atre&lt;/a&gt;, Department of Computer Science and Engineering, IIT Kanpur.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This project aims to utilize the the emotional information present in any media to perform cross-modal media
+retrieval efficiently. We present an implementation to extract this emotion from images as 2-dimensional
+vectors, and propose two methods to bring this emotion vectors from different medias in the same space, one
+being a statistical approach, and the other being a learning based approach. We also present a hypothesis,
+which allows us to establish a ground truth for the cross modal mapping. We perform extensive analysis of
+one of our proposals, and report the results obtained. We have also proposed and implemented a heuristic
+to retrieve cross-modal results efficiently.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Language Independent Text-to-Emotion Classification</title>
+      <link>https://amr4i.github.io/project/language-independent-emotion/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/language-independent-emotion/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a industrial software internship at &lt;a href=&#34;https://hike.in/&#34;&gt;Hike Pvt. Ltd., New Delhi&lt;/a&gt;, during &lt;em&gt;May &amp;lsquo;17 - Jul &amp;lsquo;17&lt;/em&gt;, the summer of my second year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;The project aimed at developing a machine learning model to &lt;strong&gt;assign an emotion to any chat message provided as input&lt;/strong&gt;. This would allow quick sticker recommendations to be based not only the textual reference, but also take into account the emotional state of the user for that message.&lt;/p&gt;
+&lt;p&gt;This task was accomplished by developing neural network models using the open source software library &lt;em&gt;tensorflow&lt;/em&gt; from Google. In order to get the highest accuracy, multiple models had to be developed, all based on different machine learning techniques including &lt;strong&gt;CNN&lt;/strong&gt;, &lt;strong&gt;RNN&lt;/strong&gt;, and &lt;strong&gt;LSTM&lt;/strong&gt; networks.&lt;/p&gt;
+&lt;p&gt;The esteem of the model lies in the fact that it is a &lt;strong&gt;language independent&lt;/strong&gt; model, which when trained on enough texts from any language, should be able to successfully predict the most probable emotion of any text in that language.&lt;/p&gt;
+&lt;p&gt;The project also comprised of gathering the data required for training this model. For this purpose, a sub-project had to be developed that acted like a &lt;strong&gt;Language-Classifier&lt;/strong&gt;, which segregated the chat corpus into chats of the top 5 chat languages in the application, namely Hindi+English, Tamil, Marathi, Gujarati and Bengali, but can easily be extended to any number of languages as required.&lt;/p&gt;
+&lt;p&gt;This segregation into the different chatting languages was required since the data needed for training had to be prepared by manual tagging of the messages to a particular emotion class out of a predefined set of classes. Notably, the model does not require any language classification of the input message, once it has been trained on this prepared data.&lt;/p&gt;
+&lt;p&gt;The crude conversation data was obtained from a corpus of anonymized &amp;ldquo;random&amp;rdquo; text chat sequences. Following this, the language-classifier was applied to get the texts from each language separated out. The classifier started with the sticker tags of the languages, processed them at multiple stages and performed a frequency analysis through a Confusion Matrix to get unique set of words for each language. Using these words, some texts were extracted from the corpus for each language. These texts were then used to get a better and more extensive list of unique common words through the same process. Now, using this final word list, another frequency based search on the conversations allowed extraction of texts uniquely belonging to each language.&lt;/p&gt;
+&lt;p&gt;These texts then had to be properly “cleaned&amp;rdquo; so as to contain only relevant information. This was done using some basic python scripting followed by running the corpus through a &lt;strong&gt;Vector Space Model&lt;/strong&gt; (VSM) that used word2Vec modelling and tf-idf weights to generate word and document vectors, and use those to clear irrelevant and repeated information. The process also involved gathering data from multiple NoSQL databases in MongoDB.&lt;/p&gt;
+&lt;p&gt;Finally, a &lt;strong&gt;Server-Client support&lt;/strong&gt; for the model was also developed wherein the user could submit the text, which is processed by the Client and submitted to the Server along the necessary details as a GRPC request. The server hosts the multiple versions of the model, with the latest being fetched to answer the query it receives from the client. This support was added through Google&#39;s &lt;em&gt;tensorflow_serving&lt;/em&gt; library. The model can also be hosted on Google Machine Learning Engine, the support for which can be easily implemented in the existing code.&lt;/p&gt;
+&lt;p&gt;The tensorflow serving library has support only on linux environments, and hence for setting up the server system, a appropriate &lt;strong&gt;Docker&lt;/strong&gt; environment also had to be set-up on the local machine, that included all the dependencies for the same.&lt;/p&gt;
+&lt;p&gt;As a simple but efficient extension, the text message that contains emojis isn&#39;t analyzed via the model, and instead the emotion can be directly taken from the emoji itself on the client itself without any need to hit the server.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for large scale logistics platform</title>
+      <link>https://amr4i.github.io/project/nyo/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 -0400</pubDate>
+      <guid>https://amr4i.github.io/project/nyo/</guid>
+      <description>&lt;h2 id=&#34;location&#34;&gt;Location&lt;/h2&gt;
+&lt;p&gt;This project was done as a remote software development internship at &lt;a href=&#34;https://nyc.iitk.ac.in/NYC/&#34;&gt;New York Office, IIT Kanpur&lt;/a&gt; during &lt;em&gt;May &amp;lsquo;18 - Jul &amp;lsquo;18&lt;/em&gt;, the summer of my second year.&lt;/p&gt;
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+&lt;p&gt;The project comprised of completing multiple tasks within the assigned duration of the internship.
+The first task was to implement the &lt;strong&gt;Document Distance&lt;/strong&gt; problem, to remove the semantically same articles from large collection of articles. This was accomplished by using word vectors and document vectors and implementing the &lt;strong&gt;Word Mover’s Distance&lt;/strong&gt; algorithm to successfully eliminate all similar entries within acceptable error values. We also experimented with word-vectors and tf-idf weights to generate document vectors and finding semantically similar articles through cosine similarity of these document vectors, but Word Mover’s distance was the final method used because of better accuracy, though being slower than the other approach. The development was done in Python, and used both pre-trained word embeddings and custom trained word embeddings to get a requirement specific model.&lt;br&gt;
+The second task was to implement the &lt;strong&gt;Reverse k-Nearest Neighbour&lt;/strong&gt; problem. The data would contain two sets of coordinates, one for facilities and the other for users. The task is to return all those users (BiChromatic RkNN) or facilities(MonoChromatic RkNN) for which the query facility is among the k-Nearest facility. This task required proper data structure that could allow quick access and insertion along with efficient spatial storage, as we need to work with 2D coordinates. Hence, two separate R-Trees were used to store the coordinates of users and facilities. Then the &lt;strong&gt;SLICE&lt;/strong&gt; algorithm was used to implement RkNN problem, that partitions the space in equal sectors around the query, and acts as an improved version of halfSpace and Six-region algorithms combined to get pruning and verification done relatively faster in speed and I/O operations combined. The code for this problem was implemented in C++.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
